@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+body{
+    display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: auto 1fr auto;
+height: 100vh;
+}
+
+header{
+    background-color: red;
+}
+
+div{
+    display: grid;
+    grid-template-columns: 300px 1fr 300px;
+    background-color: blue;
+}
+
+section{
+    background-color: gray;
+}
+
+.left{
+    background-color: yellow;
+}
+
+main{
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr );
+    grid-template-rows: 1fr 1fr;
+    background-color: green;
+    gap: 3rem;
+}
+
+.right{
+    background-color: aqua;
+}
+
+footer{
+    background-color: black;
+}
