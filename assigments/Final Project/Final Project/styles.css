@@ -256,7 +256,7 @@ header {
 
 .pos5 {
     position: absolute;
-    top: 698px;
+    top: 690px;
     left: 420px;
     background-color: green;
     padding: 20px;
@@ -265,8 +265,8 @@ header {
 
 .pos6 {
     position: absolute;
-    top: 698px;
-    left: 1150px;
+    top: 690px;
+    left: 1144px;
     background-color: lightskyblue;
     padding: 20px;
     border-radius: 3px;
