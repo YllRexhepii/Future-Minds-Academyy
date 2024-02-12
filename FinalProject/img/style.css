@@ -23,52 +23,182 @@
   }
   
   .flexDirection {
-      flex-direction: column;
-  }
-  
-  .gap {
-      gap: 15px;
-  }
-  
-  .imgBorder {
-      padding: 5px;
-      border-radius: 10px;
-  }
-  
-  .alignItems {
-      align-items: center;
-  }
-  
-  .border {
-      border: 2px solid transparent;
-      border-radius: 2px;
-  }
-  
-  .border:hover {
-      background-color: grey;
-  }
-  
-  .textWhite {
-      color: white;
-  }
-  
-  .borderbottom {
-      border-bottom: 2px solid white;
-  }
-  
-  hr {
-      color: white;
-  }
-  
-  .black {
-      color: black;
-      margin-bottom: 20px;
-  }
-  
-  .bgRed {
-      background-color: red;
-  }
-  
-  .radius {
-      border-radius: 5px;
-  }
+    flex-direction: column;
+}
+
+.gap {
+    gap: 28px;
+}
+
+.gap1 {
+    gap: 10px;
+}
+
+.imgBorder {
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+}
+
+.alignItems {
+    align-items: center;
+}
+
+.border {
+    border: 2px solid transparent;
+    border-radius: 3px;
+}
+
+
+.border:hover {
+    background-color: grey;
+}
+.textWhite {
+    color: white;
+}
+
+.borderbottom {
+    border-bottom: 2px solid white;
+}
+
+hr {
+    color: white;
+}
+
+.black {
+    color: black;
+    margin-bottom: 20px;
+}
+
+.bgRed {
+    background-color: red;
+}
+
+.radius {
+    border-radius: 3px;
+}
+
+.jsContentSpace {
+    justify-content: space-between;
+}
+
+.jsContentAround {
+    justify-content: space-Around;
+}
+
+.radius10 {
+    border-radius: 10px;
+}
+
+.flDirection {
+    flex-direction: row;
+}
+
+.positionAb {
+    position: absolute;
+    right: 0;
+}
+
+header {
+    width: 79vw;
+}
+
+.gap5 {
+    gap: 5px;
+}
+
+.width {
+    width: 75vw;
+}
+
+#Search {
+    background-color: transparent;
+    border: none;
+    outline: none;
+border-bottom: 1px solid black;
+}
+
+.focu {
+    border-radius: 25px;
+}
+
+.border1 {
+    border: 2px solid transparent;
+    border-radius: 15px;
+    transition: ease-in-out 1s;
+}
+
+.border1:hover {
+    background-color: grey;
+}
+
+.bgWhite {
+    background-color: white;
+    color: black;
+    transition: ease-in-out 2s;
+    border-radius: 25px;
+}
+
+.bgWhite:hover {
+    box-shadow: 1px 1px 1px 1px gray;
+}
+
+.margin {
+    margin: 3px;
+}
+
+.Card {
+    border: 2px solid transparent;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 5%;
+    padding: 30px;
+}
+
+.borderbottom1 {
+    border-bottom: 1px solid black;
+    gap: 40px;
+    width: fit-content;
+}
+
+.padding {
+    padding: 10px;
+}
+
+.fontS {
+    font-size: small;
+}
+
+.marginL {
+    margin-left: 30px;
+}
+
+.pos {
+    position: absolute;
+    top: 9%;
+}
+
+.pos1 {
+    position: absolute;
+    top: 20%;
+    left: 26.9%;
+    background-color: green;
+    padding: 6px;
+    border-radius: 3px;
+    padding: 10px;
+    box-shadow: 1.5px 1.5px 1.5px 1.5px rgba(0, 99, 0, 0.712);
+}
+
+.pos2 {
+    position: absolute;
+    top: 24%;
+    left: 32%;
+}
+
+.paddingD {
+    padding-bottom: 75px;
+}
+
+.paddingU {
+    padding-top: 30px;
+}
