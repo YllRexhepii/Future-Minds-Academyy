@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>While Loop</title>
+</head>
+<body>
+    <div id="numrat">
+         <h1>WhileLoop</h1>
+    </div>
+   <div id="numrat2">
+        <h1>ForLoop</h1>
+   </div>
+    <script>
+        const numrat = document.querySelector(".numrat");
+        const numrat2 = document.querySelector(".numrat2");
+
+        let i=40;
+        while(i>=0){
+            numrat.innerHTML += i +` `;
+             i--;
+        }
+        
+        for(let i=40; i>=0; i--){
+            numrat2.innerHTML = i + ` `;
+        }
+    </script>
+</body>
+</html>

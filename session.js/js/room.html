@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <label for="">Room width</label>
+    <input type="text" id="">
+<br>
+    <label for="">Room Height</label>
+    <input type="number" id="room">
+<br>
+<br>    
+    <button id="drawbtn">Draw Room</button>
+    
+    <div class="canvas"></div>
+
+    <script>
+        const roomW = document.querySelector("#roomW");
+        const roomH = document.querySelector("#roomH");
+        const canVas = document.querySelector(".canvas");
+        const drawbtn = document.querySelector("#drawbtn");
+
+        drawbtn.addEventListener("click", function(){
+            canvas.style.width = roomW.value;
+            canvas.style.height = roomH.value;
+            canvas.style.backgroundColor = "red";
+            console.log("You clicked");
+        });
+    </script>
+</body>
+</html>
