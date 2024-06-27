@@ -13,17 +13,18 @@
         <h1>ForLoop</h1>
    </div>
     <script>
-        const numrat = document.querySelector(".numrat");
-        const numrat2 = document.querySelector(".numrat2");
+        const numrat = document.querySelector("#numrat");
+        const numrat2 = document.querySelector("#numrat2");
 
         let i=40;
-        while(i>=0){
+        while(i>=1){
             numrat.innerHTML += i +` `;
              i--;
         }
         
-        for(let i=40; i>=0; i--){
+        for(let i=7; i>=0; i--){
             numrat2.innerHTML = i + ` `;
+            i--;
         }
     </script>
 </body>
