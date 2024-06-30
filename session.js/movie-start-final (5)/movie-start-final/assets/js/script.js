@@ -1,6 +1,6 @@
-const movieGernes = document.querySelector('.movieGernes');
-const movielist   = document.querySelector('.movielist');
-const movie_details_page = document.querySelector('.movie-details-page');
+const movieGernes = document.querySelector(".movieGernes");
+const movielist   = document.querySelector(".movielist");
+const movie_details_page = document.querySelector(".movie-details-page");
 
 
 for(let i=0; i<allMovies.length; i++){
